@@ -103,7 +103,7 @@ a {
 input,
 textarea {
   color: rgb(var(--foreground-rgb));
-  background-color: rgba(var(--tile-start-rgb), 0.8);
+  background-color: white !important; /* Force the background color to white */
   border: 1px solid rgba(var(--tile-border));
   border-radius: var(--border-radius);
   padding: 8px;
@@ -123,7 +123,10 @@ textarea::placeholder {
 
   input,
   textarea {
-    background-color: rgba(var(--tile-end-rgb), 0.2);
+    color: rgb(var(--foreground-rgb));
+    background-color: white !important; /* Keep the background color white in dark mode */
     border: 1px solid rgba(var(--card-border-rgb), 0.4);
   }
 }
+
+/* Additional styles (if any) should be added below */
