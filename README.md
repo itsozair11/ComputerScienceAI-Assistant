@@ -2,7 +2,10 @@
 
 This is a Computer Science AI assistant project called HeadstarterAI. This is built to help engineers trying to get into the field and get job opportunities.
 
-Currently this web app is not deployed yet. In order to run it clone it to your machine.
+This web app has now been deployed to the following link: https://computer-science-ai-assistant-kn25uawmv.vercel.app/
+
+However, if you would like to run it locally follow these instructions:
+In order to run it clone it to your machine.
 Make sure your in the folder directory.
 Run npm install.
 Run npm run dev.
