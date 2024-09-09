@@ -2,7 +2,7 @@
 
 This is a Computer Science AI assistant project called ComputerScience Assistant AI. This is built to help engineers trying to get into the field and get job opportunities.
 
-This web app has now been deployed to the following link: https://computer-science-ai-assistant-kn25uawmv.vercel.app/
+This web app has now been deployed to the following link: https://computer-science-ai-assistant-8y9flwb6s.vercel.app/
 
 However, if you would like to run it locally follow these instructions:
 In order to run it clone it to your machine.
