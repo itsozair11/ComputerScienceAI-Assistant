@@ -1,6 +1,6 @@
 ![ComputerScienceAssistant-ai](https://www.iimtindia.net/Blog/wp-content/uploads/2021/05/Machine-Learning.jpg)
 
-This is a Computer Science AI assistant project called HeadstarterAI. This is built to help engineers trying to get into the field and get job opportunities.
+This is a Computer Science AI assistant project called ComputerScience Assistant AI. This is built to help engineers trying to get into the field and get job opportunities.
 
 This web app has now been deployed to the following link: https://computer-science-ai-assistant-kn25uawmv.vercel.app/
 
