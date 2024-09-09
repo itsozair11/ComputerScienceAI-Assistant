@@ -5,8 +5,8 @@ This is a Computer Science AI assistant project called ComputerScience Assistant
 This web app has now been deployed to the following link: https://computer-science-ai-assistant-mkyxsyfm7.vercel.app/
 
 ---------------------------------------------------------------------------
-<br>**IGNORE THE FACT THAT IT SAYS FAILED DEPLOYMENT - IT DEPLOYED FINE!**
-<br>**JUST FOLLOW THE LINK PROVIDED!!**
+<br>**ignore the fact that it says deployment failed - it deployed fine!**
+<br>**Follow the link provided!!**
 ---------------------------------------------------------------------------
 
 However, if you would like to run it locally follow these instructions:
