@@ -2,7 +2,7 @@
 
 This is a Computer Science AI assistant project called ComputerScience Assistant AI. This is built to help engineers trying to get into the field and get job opportunities.
 
-This web app has now been deployed to the following link: https://computer-science-ai-assistant-mkyxsyfm7.vercel.app/
+This web app has now been deployed to the following link: https://computer-science-ai-assistant.vercel.app/
 
 ---------------------------------------------------------------------------
 <br>**ignore the fact that it says deployment failed - it deployed fine!**
