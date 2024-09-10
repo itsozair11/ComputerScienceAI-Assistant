@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { auth } from './config/firebase';  // Import Firebase auth for authentication checks
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail } from 'firebase/auth';
 import { TextField, Button, Box, Typography } from '@mui/material';
+import { useTheme } from '@mui/material/styles'; // Import MUI hook to access theme
 
 export default function Auth() {
   const [email, setEmail] = useState('');
@@ -11,6 +12,8 @@ export default function Auth() {
   const [isSignUp, setIsSignUp] = useState(false); // Toggle between sign-in and sign-up
   const [error, setError] = useState(null);
   const [isResettingPassword, setIsResettingPassword] = useState(false); // State to manage the "Forgot Password" flow
+
+  const theme = useTheme(); // Access the current theme
 
   const handleAuth = async () => {
     try {
@@ -55,6 +58,11 @@ export default function Auth() {
             value={email}
             fullWidth
             margin="normal"
+            sx={{
+              input: {
+                color: theme.palette.mode === 'dark' ? 'white' : 'black',
+              },
+            }}
           />
           <TextField
             label="Password"
@@ -63,6 +71,11 @@ export default function Auth() {
             value={password}
             fullWidth
             margin="normal"
+            sx={{
+              input: {
+                color: theme.palette.mode === 'dark' ? 'white' : 'black',
+              },
+            }}
           />
           {error && <Typography color="error">{error}</Typography>}
 
@@ -96,6 +109,11 @@ export default function Auth() {
             value={email}
             fullWidth
             margin="normal"
+            sx={{
+              input: {
+                color: theme.palette.mode === 'dark' ? 'white' : 'black',
+              },
+            }}
           />
           {error && <Typography color="error">{error}</Typography>}
 
