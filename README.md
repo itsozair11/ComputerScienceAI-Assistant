@@ -7,6 +7,8 @@ This is a Computer Science AI assistant project called ComputerScience Assistant
 
 This web app has now been deployed to the following link: https://computer-science-ai-assistant.vercel.app/
 
+If that link isn't working here is an alternative link you can use: https://computer-science-ai-assistant-qj8j4khat.vercel.app/
+
 <br>ignore the fact that it says deployment failed - it deployed fine!
 <br>Follow the link provided!!
 
